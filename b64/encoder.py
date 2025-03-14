@@ -7,6 +7,7 @@ def str_to_base64(x):
 def main():
     print(str_to_base64(sys.argv[1]))
 
-
 if __name__ == '__main__':
     main()
+
+__all__ = ['str_to_base64']
