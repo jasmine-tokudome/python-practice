@@ -26,5 +26,5 @@ setup(
     extras_require = {
 
     },
-    package_data={'jstestpkg': ['data/:']},
+    package_data={'jstestpkg': ['data/*']},
 )
